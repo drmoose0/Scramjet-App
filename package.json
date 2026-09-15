@@ -33,3 +33,7 @@
 	},
 	"packageManager": "pnpm@10.18.3"
 }
+"scripts": {
+  "render-build": "pnpm install && pnpm build",
+  "start": "node index.js"
+}
